@@ -60,8 +60,12 @@ class car {
   }
 }
 
-const car1: car = new car('123abc',10);
-console.log(car1);
-car1.increasespeed(200);
-console.log(car1);
+const car1: car = new car('123abc',0);
+const car2: car = new car('456def', 10);
+const car3: car = new car('789ghi',20);
+
+const selectDropdown : HTMLElement = document.getElementById("carlist");
+const carlist: string[]=['car1','car2','car3'];
+
+
 
